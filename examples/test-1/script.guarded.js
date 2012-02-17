@@ -38,13 +38,19 @@ var fn = function() {
     try {
         setTimeout(function() {
             try {
-                var fnn = throwIt(function() {
+                (function() {
                     try {
-                        console.log("not accessible");
+                        var fnn = throwIt(function() {
+                            try {
+                                console.log("not accessible");
+                            } catch (e) {
+                                catchall.error(e);
+                            }
+                        });
                     } catch (e) {
                         catchall.error(e);
                     }
-                });
+                })();
             } catch (e) {
                 catchall.error(e);
             }

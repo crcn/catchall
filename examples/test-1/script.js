@@ -21,9 +21,12 @@ function ttt() {
 
 var fn = function() {
 	setTimeout(function() {
-		var fnn = throwIt(function() {
-			console.log('not accessible')
-		})
+		(function() {
+			
+			var fnn = throwIt(function() {
+				console.log('not accessible')
+			})
+		})();
 	}, 1000);
 }
 
