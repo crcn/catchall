@@ -9,12 +9,12 @@
 ### Features
 
 - Wrapped scripts are cached until they're modified.
-- Connect Module - Example: `http://localhost/catchall/js/something.js`, or `http://localhost/catchall/http://somesite.com/js/script.js`
+- Connect Module
 
 
 ### Super Important Note
 
-All function bodies are wrapped in try-catch blocks, so it would be a **terrible** idea to use this for production code.
+All functions are wrapped in try-catch blocks, so it would be a **terrible** idea to use this for production code.
 
 ## Example
 
