@@ -1,0 +1,46 @@
+#!/usr/bin/env node
+
+var catchall = require('../'),
+outcome = require('outcome'),
+fs = require('fs');
+
+var argv = require('optimist').
+usage('Usage: -i [input_js]').
+demand(['i']).
+alias('i','input').
+alias('o','output').
+describe('i', 'input js file').
+describe('o', 'output js file').
+argv;
+
+
+var on = outcome.error(function(e) {
+	console.error(e.message);
+})
+
+
+function fixPath(dir) {
+
+	return dir.
+	replace(/^\./,process.cwd()).
+	replace(/^\~/,process.env.HOME);
+
+}
+
+
+
+//read the input
+fs.readFile(fixPath(argv.input), "utf8", on.success(function(content) {
+
+	//wrap the JS file
+	catchall.generate(content, { addHandler: true }, on.success(function(wrapped) {
+		
+		//no output? print.
+		if(!argv.output) return console.log(wrapped);
+
+		//write it.
+		fs.writeFile(fixPath(argv.output), wrapped, on);
+
+	}));
+
+}));

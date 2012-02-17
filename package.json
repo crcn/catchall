@@ -1,0 +1,20 @@
+{
+  "name": "catchall",
+  "description": "Catch all javascript exceptions",
+  "version": "0.0.1",
+  "repository": {
+  },
+  "engines": {
+  },
+  "dependencies": {
+    "uglify-js":"1.2.x",
+    "outcome":"0.0.x",
+    "optimist":"0.3.x"
+  },
+  "devDependencies": {
+  },
+  "bin":{
+    "catchall":"./bin/cli"
+  },
+  "main":"./lib/index.js"
+}
