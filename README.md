@@ -77,7 +77,19 @@ app.use(connect.static(__dirname + '/public'));
 app.listen(8080);
 ```
 
-Test it out by typing this into your browser: `http://localhost:8080/catchall/http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js`
+Here's how you'd use catchall in html:
+
+```html
+<html>
+	<head>
+
+		<!-- jquery lib wrapped around try-catch blocks -->
+		<script type="text/javascript" src="http://localhost:8080/catchall/http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+	</head>
+	<body>
+	</body>
+</html>
+```
 
 ## API
 
