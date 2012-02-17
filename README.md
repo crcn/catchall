@@ -74,7 +74,7 @@ connect = require('connect'),
 app = connect.createServer();
 app.use(catchall.connectMiddleware);
 app.use(connect.static(__dirname + '/public'));
-app.listen(8080);
+app.listen(80);
 ```
 
 Here's how you'd use catchall in html:
@@ -84,8 +84,8 @@ Here's how you'd use catchall in html:
 	<head>
 
 		<!-- jquery lib wrapped around try-catch blocks -->
-		<script type="text/javascript" src="http://localhost:8080/catchall/http://somesite/js/script.js"></script>
-		<script type="text/javascript" src="http://localhost:8080/catchall/js/public/script.js"></script>
+		<script type="text/javascript" src="http://localhost/catchall/http://site.com/script.js"></script>
+		<script type="text/javascript" src="http://localhost/catchall/js/public/script.js"></script>
 	</head>
 	<body>
 	</body>
