@@ -103,7 +103,7 @@ Generates guarded code where all exceptions are caught.
 
 - `source` - the javascript source to wrap around
 - `ops` - the wrap options
-	- `addHandler` - add the handler at the head of the script (`catchall.onerror = function(){}`)
+	- `add_handler` - add the handler at the head of the script (`catchall.onerror = function(){}`)
 	- `uglify` - uglify the script by removing all whitespace
 	- `indent_level` - indentation in spaces
 
