@@ -58,10 +58,9 @@ unknownFunction is not defined
 
 Generates guarded code where all exceptions are caught.
 
-- `source` - the javascript source to wrap around
-- `ops` - the wrap options
+- `source` - the javascript source to wrap around.
+- `ops` - the wrap options.
 	- `addHandler` - add the handler at the head of the script (`catchall.error = function(){}`)
-- `callback` - the callback function for the wrapped source
 
 Here's a simple example:
 
