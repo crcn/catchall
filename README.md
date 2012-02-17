@@ -3,7 +3,8 @@
 
 ## Motivation
 
-- Better stack traces.
+- better alternative to `window.onerror`. Actually catches *all* exceptions thrown in JavaScript.
+- Catch errors where they originate from.
 - Ability to send errors to a server while alpha testing.
 - Insipired by [proxino](https://www.proxino.com/).
 
