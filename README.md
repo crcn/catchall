@@ -86,7 +86,10 @@ Here's how you'd use catchall in html:
 <html>
   <head>
 
+    <!-- from remote url -->
     <script type="text/javascript" src="http://127.0.0.1/catchall/http://site.com/scr.js"></script>
+
+    <!-- from local server -->
     <script type="text/javascript" src="http://127.0.0.1/catchall/js/public/script.js"></script>
   </head>
   <body>
