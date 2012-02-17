@@ -1,10 +1,16 @@
 
-## Motivation
+### Motivation
 
-- better alternative to `window.onerror`. Actually catches *all* exceptions thrown in JavaScript.
+- Better alternative to `window.onerror`. Actually catches *all* exceptions thrown in JavaScript.
 - Catch errors where they originate from.
 - Ability to send errors to a server while alpha testing.
 - Insipired by [proxino](https://www.proxino.com/).
+
+### Features
+
+- Scripts are cached until they're modified.
+- Connect Module - Example: `http://localhost/catchall/js/something.js`, or `http://localhost/catchall/http://somesite.com/js/script.js`
+
 
 ### Super Important Note
 
