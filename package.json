@@ -1,6 +1,11 @@
 {
     "name": "catchall",
     "description": "Catch all javascript exceptions",
+
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/crcn/catchall.git"
+    },
     "version": "0.0.2",
     "repository": {},
     "engines": {},
