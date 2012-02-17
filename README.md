@@ -1,5 +1,3 @@
-## Catch all errors thrown in JavaScript
-
 
 ## Motivation
 
