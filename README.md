@@ -54,10 +54,10 @@ unknownFunction is not defined
 You can hookup catchall with 
 
 ```javascript
-var catchall = require('../../'),
+var catchall = require('catchall'),
 connect = require('connect'),
 app = connect.createServer();
-app.use(catchall.connect);
+app.use(catchall.connectMiddleware);
 app.use(connect.static(__dirname + '/public'));
 app.listen(8080);
 ```
