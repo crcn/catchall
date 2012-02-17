@@ -112,6 +112,7 @@ function test() {
 Loads the given source, and wraps around it. Can be from fs, or url.
 
 Example:
+
 ```javascript
 catchall.load('http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js', function(err, result) {
 	//do something
