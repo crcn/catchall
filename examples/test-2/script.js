@@ -4,7 +4,7 @@ if(typeof catchall != 'undefined') {
 	//on catch all, send error to server
 	catchall.error = function(e) {
 		console.error('An error has occurred!');
-		console.error(e.message);
+		console.error(e.stack);
 	}	
 }
 

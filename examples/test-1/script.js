@@ -1,8 +1,8 @@
-
+//anonymous functions?
 
 catchall.error = function(e) {
 	console.log("Error!!!");
-	console.error(e.message);
+	console.error(e.stack);
 };
 
 function ttt() {

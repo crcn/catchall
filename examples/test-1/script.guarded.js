@@ -11,7 +11,7 @@ var catchall = catchall || {
 catchall.error = function(e) {
     try {
         console.log("Error!!!");
-        console.error(e.message);
+        console.error(e.stack);
     } catch (e) {
         catchall.error(e);
     }
