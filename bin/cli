@@ -30,16 +30,16 @@ function fixPath(dir) {
 
 
 //read the input
-fs.readFile(fixPath(argv.input), "utf8", on.success(function(content) {
+fs.readFile(fixPath(argv.input), "utf8", on.success(function(source) {
 
 	//wrap the JS file
-	catchall.generate(content, { addHandler: true }, on.success(function(wrapped) {
+	catchall.wrap(source, { addHandler: true }, on.success(function(wrappedSource) {
 		
 		//no output? print.
-		if(!argv.output) return console.log(wrapped);
+		if(!argv.output) return console.log(wrappedSource);
 
 		//write it.
-		fs.writeFile(fixPath(argv.output), wrapped, on);
+		fs.writeFile(fixPath(argv.output), wrappedSource, on);
 
 	}));
 

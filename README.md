@@ -51,6 +51,20 @@ An error has occurred!
 unknownFunction is not defined
 ```
 
+## API
+
+
+### String catchall.wrap(source[, ops])
+
+Generates javascript which catches all errors.
+
+- `source` - the javascript source to wrap around
+- `ops` - the wrap options
+	- `addHandler` - add the handler add the head of the script (`catchall.error = function(){}`)
+
+
+
+
 
 
 
