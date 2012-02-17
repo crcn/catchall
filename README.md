@@ -3,8 +3,8 @@
  
 - Catches *all* exceptions thrown in JavaScript.
 - Catch errors where they originate from.
-- Ability to send errors to a server while **alpha testing**.
-- Insipired by [proxino](https://www.proxino.com/).
+- Ability to log, and send errors to a server while **alpha testing**. 
+- Insipired by [proxino](https://www.proxino.com/), and node.js's `uncaughtException` event.
 
 ### Features
 
