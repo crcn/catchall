@@ -61,7 +61,6 @@ Options:
 
 ## Connect Middleware
 
-You can hookup catchall with 
 
 ```javascript
 var catchall = require('catchall'),
