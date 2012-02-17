@@ -49,7 +49,7 @@ An error has occurred!
 unknownFunction is not defined
 ```
 
-## Usage
+## Command Line Usage
 
 ```bash
 Usage: -i [input_js]
