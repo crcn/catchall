@@ -54,14 +54,35 @@ unknownFunction is not defined
 ## API
 
 
-### String catchall.wrap(source[, ops])
+### catchall.wrap(source[, ops], callback)
 
 Generates javascript which catches all errors.
 
 - `source` - the javascript source to wrap around
 - `ops` - the wrap options
 	- `addHandler` - add the handler add the head of the script (`catchall.error = function(){}`)
+- `callback` - the callback function for the wrapped source
 
+```javascript
+
+var catchall = require('catchall');
+
+catchall.wrap('function test(){ notDefined(); }', function(err, wrappedSource) {
+	//do stuff
+});
+```
+
+will give you:
+
+```javascript
+function test() {
+	try {
+		notDefined();
+	} catch(e) {
+		catchall.error(e);
+	}
+}
+```
 
 
 
