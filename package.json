@@ -1,22 +1,22 @@
 {
-  "name": "catchall",
-  "description": "Catch all javascript exceptions",
-  "repository": {},
-  "version": "0.0.2",
-  "engines": {},
-  "dependencies": {
-    "uglify-js": "1.2.x",
-    "outcome": "0.0.x",
-    "optimist": "0.3.x",
-    "request": "2.9.x",
-    "mkdirp": "0.3.x",
-    "yaconfig": "*"
-  },
-  "devDependencies": {
-    "connect": "1.8.x"
-  },
-  "bin": {
-    "catchall": "./bin/cli"
-  },
-  "main": "./lib/index.js"
+    "name": "catchall",
+    "description": "Catch all javascript exceptions",
+    "repository": {},
+    "version": "0.0.3",
+    "engines": {},
+    "dependencies": {
+        "uglify-js": "1.2.x",
+        "outcome": "0.0.x",
+        "optimist": "0.3.x",
+        "request": "2.9.x",
+        "mkdirp": "0.3.x",
+        "yaconfig": "*"
+    },
+    "devDependencies": {
+        "connect": "1.8.x"
+    },
+    "bin": {
+        "catchall": "./bin/cli"
+    },
+    "main": "./lib/index.js"
 }

@@ -5,6 +5,7 @@
 - Catch errors where they originate from.
 - Ability to log, and send errors to a server while **alpha testing**. 
 - Insipired by [proxino](https://www.proxino.com/), and node.js's `uncaughtException` event.
+- Identify where try/catch blocks are used.
 
 ### Features
 
