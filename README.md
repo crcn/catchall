@@ -130,7 +130,7 @@ function test() {
 }
 ```
 
-### catchall.load(source, callback)
+### catchall.load(source[, ops], callback)
 
 Loads the given source, and wraps around it. Can be from fs, or url.
 
