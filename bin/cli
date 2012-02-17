@@ -5,7 +5,7 @@ outcome = require('outcome'),
 fs = require('fs');
 
 var argv = require('optimist').
-usage('Usage: -i [input_js]').
+usage('Usage: -i [input_js] -o [output_js]').
 demand(['i']).
 alias('i','input').
 alias('o','output').
