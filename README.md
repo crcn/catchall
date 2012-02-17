@@ -9,7 +9,9 @@
 ### Features
 
 - Wrapped scripts are cached until they're modified.
-- Connect Module
+- [Connect](/senchalabs/connect) Middleware
+- [beanpoll](/crcn/beanpoll.js) Plugin
+- Works with [mesh](/crcn/mesh.js)
 
 
 ### Super Important Note
