@@ -8,7 +8,7 @@
 
 ### Features
 
-- Scripts are cached until they're modified.
+- Wrapped scripts are cached until they're modified.
 - Connect Module - Example: `http://localhost/catchall/js/something.js`, or `http://localhost/catchall/http://somesite.com/js/script.js`
 
 
