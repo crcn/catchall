@@ -1,6 +1,8 @@
 var catchall = catchall || {
-    error: function() {
-        try {} catch (e) {
+    error: function(err) {
+        try {
+            console.error(err.stack);
+        } catch (e) {
             catchall.error(e);
         }
     }

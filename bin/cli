@@ -9,7 +9,7 @@ usage('Usage: -i [input_js]').
 demand(['i']).
 alias('i','input').
 alias('o','output').
-describe('i', 'input js file').
+describe('i', 'input js file or url').
 describe('o', 'output js file').
 argv;
 
@@ -28,19 +28,11 @@ function fixPath(dir) {
 }
 
 
+catchall.load(fixPath(argv.input), on.success(function(wrappedSource) {
+	
+	//no output? print.
+	if(!argv.output) return console.log(wrappedSource);
 
-//read the input
-fs.readFile(fixPath(argv.input), "utf8", on.success(function(source) {
-
-	//wrap the JS file
-	catchall.wrap(source, { addHandler: true }, on.success(function(wrappedSource) {
-		
-		//no output? print.
-		if(!argv.output) return console.log(wrappedSource);
-
-		//write it.
-		fs.writeFile(fixPath(argv.output), wrappedSource, on);
-
-	}));
-
+	//write it.
+	fs.writeFile(fixPath(argv.output), wrappedSource, on);
 }));

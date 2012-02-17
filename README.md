@@ -49,6 +49,16 @@ An error has occurred!
 unknownFunction is not defined
 ```
 
+## Usage
+
+```bash
+Usage: -i [input_js]
+
+Options:
+  -i, --input   input js file or url  [required]
+  -o, --output  output js file      
+```
+
 ## Connect Middleware
 
 You can hookup catchall with 
