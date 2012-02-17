@@ -1,11 +1,11 @@
 //test whether stack traces are still descriptive
 
-catchall.error = function(e) {
+catchall.onerror = function(e) {
 	console.error("ERR!");
 	console.error(e.stack);
 }
 
-
+ 
 var _testName
 
 function setName(value) {

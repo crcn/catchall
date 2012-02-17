@@ -1,20 +1,20 @@
 var catchall = catchall || {
-    error: function(err) {
+    onerror: function(err) {
         try {
             console.error(err.stack);
         } catch (e) {
-            catchall.error(e);
+            catchall.onerror(e);
         }
     }
 };
 
 if (typeof catchall != "undefined") {
-    catchall.error = function(e) {
+    catchall.onerror = function(e) {
         try {
             console.error("An error has occurred!");
             console.error(e.stack);
         } catch (e) {
-            catchall.error(e);
+            catchall.onerror(e);
         }
     };
 }
@@ -23,7 +23,7 @@ function badFunction() {
     try {
         unknownFunction();
     } catch (e) {
-        catchall.error(e);
+        catchall.onerror(e);
     }
 }
 

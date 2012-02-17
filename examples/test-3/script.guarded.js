@@ -1,19 +1,19 @@
 var catchall = catchall || {
-    error: function(err) {
+    onerror: function(err) {
         try {
             console.error(err.stack);
         } catch (e) {
-            catchall.error(e);
+            catchall.onerror(e);
         }
     }
 };
 
-catchall.error = function(e) {
+catchall.onerror = function(e) {
     try {
         console.error("ERR!");
         console.error(e.stack);
     } catch (e) {
-        catchall.error(e);
+        catchall.onerror(e);
     }
 };
 
@@ -23,7 +23,7 @@ function setName(value) {
     try {
         _testName = value.length > 3 ? value : _testName;
     } catch (e) {
-        catchall.error(e);
+        catchall.onerror(e);
     }
 }
 
@@ -31,7 +31,7 @@ function entry(name) {
     try {
         setName(name);
     } catch (e) {
-        catchall.error(e);
+        catchall.onerror(e);
     }
 }
 
@@ -39,7 +39,7 @@ function entry2() {
     try {
         entry(undefined);
     } catch (e) {
-        catchall.error(e);
+        catchall.onerror(e);
     }
 }
 

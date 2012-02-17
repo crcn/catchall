@@ -1,19 +1,19 @@
 var catchall = catchall || {
-    error: function(err) {
+    onerror: function(err) {
         try {
             console.error(err.stack);
         } catch (e) {
-            catchall.error(e);
+            catchall.onerror(e);
         }
     }
 };
 
-catchall.error = function(e) {
+catchall.onerror = function(e) {
     try {
         console.log("Error!!!");
         console.error(e.stack);
     } catch (e) {
-        catchall.error(e);
+        catchall.onerror(e);
     }
 };
 
@@ -30,7 +30,7 @@ function ttt() {
         console.log("HELLO");
         console.log("HELLO");
     } catch (e) {
-        catchall.error(e);
+        catchall.onerror(e);
     }
 }
 
@@ -44,19 +44,19 @@ var fn = function() {
                             try {
                                 console.log("not accessible");
                             } catch (e) {
-                                catchall.error(e);
+                                catchall.onerror(e);
                             }
                         });
                     } catch (e) {
-                        catchall.error(e);
+                        catchall.onerror(e);
                     }
                 })();
             } catch (e) {
-                catchall.error(e);
+                catchall.onerror(e);
             }
         }, 1e3);
     } catch (e) {
-        catchall.error(e);
+        catchall.onerror(e);
     }
 };
 

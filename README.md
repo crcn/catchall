@@ -26,7 +26,7 @@ Create a file called `script.js`:
 if(typeof catchall != 'undefined') {
 
 	//on catch all, send error to server
-	catchall.error = function(e) {
+	catchall.onerror = function(e) {
 		console.error('An error has occurred!');
 		console.error(e.message);
 	}	
@@ -101,7 +101,7 @@ Generates guarded code where all exceptions are caught.
 
 - `source` - the javascript source to wrap around.
 - `ops` - the wrap options.
-	- `addHandler` - add the handler at the head of the script (`catchall.error = function(){}`)
+	- `addHandler` - add the handler at the head of the script (`catchall.onerror = function(){}`)
 
 Here's a simple example:
 
@@ -121,7 +121,7 @@ function test() {
 	try {
 		notDefined();
 	} catch(e) {
-		catchall.error(e);
+		catchall.onerror(e);
 	}
 }
 ```
