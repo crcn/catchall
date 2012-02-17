@@ -1,9 +1,9 @@
 
 ### Motivation
-
-- Better alternative to `window.onerror`. Actually catches *all* exceptions thrown in JavaScript.
+ 
+- Catches *all* exceptions thrown in JavaScript.
 - Catch errors where they originate from.
-- Ability to send errors to a server while alpha testing.
+- Ability to send errors to a server while **alpha testing**.
 - Insipired by [proxino](https://www.proxino.com/).
 
 ### Features
@@ -81,14 +81,14 @@ Here's how you'd use catchall in html:
 
 ```html
 <html>
-	<head>
+  <head>
 
-		<!-- jquery lib wrapped around try-catch blocks -->
-		<script type="text/javascript" src="http://127.0.0.1/catchall/http://site.com/scr.js"></script>
-		<script type="text/javascript" src="http://127.0.0.1/catchall/js/public/script.js"></script>
-	</head>
-	<body>
-	</body>
+    <!-- jquery lib wrapped around try-catch blocks -->
+    <script type="text/javascript" src="http://127.0.0.1/catchall/http://site.com/scr.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1/catchall/js/public/script.js"></script>
+  </head>
+  <body>
+  </body>
 </html>
 ```
 
