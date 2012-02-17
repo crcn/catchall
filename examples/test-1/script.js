@@ -3,7 +3,7 @@
 catchall.onerror = function(e) {
 	console.log("Error!!!");
 	console.error(e.stack);
-}; 
+};     
 
 function ttt() {
 	console.log("HELLO")

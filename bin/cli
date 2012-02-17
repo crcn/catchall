@@ -9,8 +9,13 @@ usage('Usage: -i [input_js] -o [output_js]').
 demand(['i']).
 alias('i','input').
 alias('o','output').
+alias('u','uglify').
+alias('n','indent_level').
 describe('i', 'input js file or url').
 describe('o', 'output js file').
+describe('u', 'remove all whitespace').
+describe('n', 'indent level').
+default('n', 1).
 argv;
 
 
@@ -32,7 +37,8 @@ function fixPath(dir) {
 }
 
 
-catchall.load(fixPath(argv.input), on.success(function(wrappedSource) {
+
+catchall.load(fixPath(argv.input), { uglify: argv.u, indent_level: argv.n }, on.success(function(wrappedSource) {
 	
 	//no output? print.
 	if(!argv.output) return console.log(wrappedSource);
