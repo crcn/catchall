@@ -72,8 +72,9 @@ Options:
 
 ```javascript
 var catchall = require('catchall'),
-connect = require('connect'),
-app = connect.createServer();
+connect      = require('connect'),
+app          = connect.createServer();
+
 app.use(catchall.connectMiddleware);
 app.use(connect.static(__dirname + '/public'));
 app.listen(80);
@@ -85,7 +86,6 @@ Here's how you'd use catchall in html:
 <html>
   <head>
 
-    <!-- jquery lib wrapped around try-catch blocks -->
     <script type="text/javascript" src="http://127.0.0.1/catchall/http://site.com/scr.js"></script>
     <script type="text/javascript" src="http://127.0.0.1/catchall/js/public/script.js"></script>
   </head>
