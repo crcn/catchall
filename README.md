@@ -84,7 +84,8 @@ Here's how you'd use catchall in html:
 	<head>
 
 		<!-- jquery lib wrapped around try-catch blocks -->
-		<script type="text/javascript" src="http://localhost:8080/catchall/http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+		<script type="text/javascript" src="http://localhost:8080/catchall/http://somesite/js/script.js"></script>
+		<script type="text/javascript" src="http://localhost:8080/catchall/js/public/script.js"></script>
 	</head>
 	<body>
 	</body>

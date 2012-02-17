@@ -22,7 +22,11 @@ var on = outcome.error(function(e) {
 function fixPath(dir) {
 
 	return dir.
+
+	//local from cwd?
 	replace(/^\./,process.cwd()).
+
+	//from home directory?
 	replace(/^\~/,process.env.HOME);
 
 }
