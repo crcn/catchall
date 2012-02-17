@@ -49,6 +49,21 @@ An error has occurred!
 unknownFunction is not defined
 ```
 
+## Connect Middleware
+
+You can hookup catchall with 
+
+```javascript
+var catchall = require('../../'),
+connect = require('connect'),
+app = connect.createServer();
+app.use(catchall.connect);
+app.use(connect.static(__dirname + '/public'));
+app.listen(8080);
+```
+
+Test it out by typing this into your browser: `http://localhost:8080/catchall/http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js`
+
 ## API
 
 
@@ -81,6 +96,21 @@ function test() {
 		catchall.error(e);
 	}
 }
+```
+
+### catchall.load(source, callback)
+
+Loads the given source, and wraps around it. Can be from fs, or url.
+
+Example:
+```javascript
+catchall.load('http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js', function(err, result) {
+	//do something
+});
+
+catchall.load('/from/fs', function(err, result) {
+	//do something
+});
 ```
 
 
