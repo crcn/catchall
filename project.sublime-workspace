@@ -27,7 +27,15 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 585,
+				"buffer_size": 481,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin 0gS79v.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -88,7 +96,7 @@
 			"file": "tests/test-1/script.js",
 			"settings":
 			{
-				"buffer_size": 468,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -96,7 +104,7 @@
 			"file": "tests/test-1/index.js",
 			"settings":
 			{
-				"buffer_size": 187,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -104,7 +112,7 @@
 			"file": "lib/test.js",
 			"settings":
 			{
-				"buffer_size": 668,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -112,7 +120,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 2992,
+				"buffer_size": 3061,
 				"line_ending": "Unix"
 			}
 		},
@@ -136,7 +144,7 @@
 			"file": "tests/test-2/script.js",
 			"settings":
 			{
-				"buffer_size": 305,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -152,7 +160,7 @@
 			"file": "tests/test-1/makefile",
 			"settings":
 			{
-				"buffer_size": 53,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -168,7 +176,23 @@
 			"file": "lib/wrap.js",
 			"settings":
 			{
-				"buffer_size": 2335,
+				"buffer_size": 2288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/wrap.tpl.js",
+			"settings":
+			{
+				"buffer_size": 566,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin lO3ugP.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -192,7 +216,7 @@
 			"file": "lib/cache.js",
 			"settings":
 			{
-				"buffer_size": 1246,
+				"buffer_size": 1242,
 				"line_ending": "Unix"
 			}
 		},
@@ -225,6 +249,22 @@
 			"settings":
 			{
 				"buffer_size": 329,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".cupboard",
+			"settings":
+			{
+				"buffer_size": 101,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin MsIGIa.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -334,7 +374,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 30,
 			"sheets":
 			[
 				{
@@ -368,21 +408,21 @@
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 585,
+						"buffer_size": 481,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								171,
-								171
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -393,6 +433,32 @@
 				},
 				{
 					"buffer": 2,
+					"file": "/tmp/subl stdin 0gS79v.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "lib/index.js",
 					"settings":
 					{
@@ -418,7 +484,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "lib/index.js",
 					"settings":
 					{
@@ -444,7 +510,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "lib/connectMiddleware.js",
 					"settings":
 					{
@@ -461,7 +527,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -470,7 +537,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "examples/connect/index.js",
 					"settings":
 					{
@@ -496,7 +563,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "examples/connect/public/js/index.html",
 					"settings":
 					{
@@ -522,7 +589,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"settings":
 					{
 						"buffer_size": 0,
@@ -548,19 +615,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "tests/test-1/script.js",
 					"settings":
 					{
-						"buffer_size": 468,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								328,
-								328
+								0,
+								0
 							]
 						],
 						"settings":
@@ -575,11 +642,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "tests/test-1/index.js",
 					"settings":
 					{
-						"buffer_size": 187,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -587,33 +654,7 @@
 						[
 							[
 								0,
-								187
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "lib/test.js",
-					"settings":
-					{
-						"buffer_size": 668,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								226,
-								226
+								0
 							]
 						],
 						"settings":
@@ -628,18 +669,44 @@
 				},
 				{
 					"buffer": 11,
-					"file": "README.md",
+					"file": "lib/test.js",
 					"settings":
 					{
-						"buffer_size": 2992,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1812,
-								1812
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 3061,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								342,
+								342
 							]
 						],
 						"settings":
@@ -647,13 +714,13 @@
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 675.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "lib/beanpoll.js",
 					"settings":
 					{
@@ -679,7 +746,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "bin/cli",
 					"settings":
 					{
@@ -696,7 +763,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -705,19 +773,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 15,
 					"file": "tests/test-2/script.js",
 					"settings":
 					{
-						"buffer_size": 305,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								305,
-								305
+								0,
+								0
 							]
 						],
 						"settings":
@@ -731,7 +799,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "tests/test-2/makefile",
 					"settings":
 					{
@@ -757,11 +825,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "tests/test-1/makefile",
 					"settings":
 					{
-						"buffer_size": 53,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -769,7 +837,7 @@
 						[
 							[
 								0,
-								53
+								0
 							]
 						],
 						"settings":
@@ -783,7 +851,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 18,
 					"file": "makefile",
 					"settings":
 					{
@@ -809,19 +877,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 19,
 					"file": "lib/wrap.js",
 					"settings":
 					{
-						"buffer_size": 2335,
+						"buffer_size": 2288,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								673,
-								673
+								1170,
+								1170
 							]
 						],
 						"settings":
@@ -830,13 +898,66 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 782.0,
+						"translation.y": 811.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 20,
+					"file": "lib/wrap.tpl.js",
+					"settings":
+					{
+						"buffer_size": 566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								553,
+								558
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "/tmp/subl stdin lO3ugP.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
 					"file": "lib/beanpollPlugin.js",
 					"settings":
 					{
@@ -853,7 +974,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -862,7 +984,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 23,
 					"file": "lib/load.js",
 					"settings":
 					{
@@ -879,7 +1001,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 587.0,
@@ -888,33 +1011,34 @@
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 24,
 					"file": "lib/cache.js",
 					"settings":
 					{
-						"buffer_size": 1246,
+						"buffer_size": 1242,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								750,
-								750
+								99,
+								99
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 197.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 25,
 					"file": "examples/connect/public/js/test.js",
 					"settings":
 					{
@@ -940,7 +1064,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 26,
 					"file": "examples/test-1/script.js",
 					"settings":
 					{
@@ -967,7 +1091,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 27,
 					"file": "examples/test-2/script.js",
 					"settings":
 					{
@@ -993,7 +1117,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 28,
 					"file": "examples/test-3/script.js",
 					"settings":
 					{
@@ -1011,6 +1135,58 @@
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": ".cupboard",
+					"settings":
+					{
+						"buffer_size": 101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "/tmp/subl stdin MsIGIa.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
