@@ -27,7 +27,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 481,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,18 +43,18 @@
 			"file": "lib/index.js",
 			"settings":
 			{
-				"buffer_size": 340,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "\nmodule.exports.wrap = require('./wrap').wrap;",
+			"contents": "",
 			"file": "lib/index.js",
 			"file_size": 38,
 			"file_write_time": 1329468713000000,
 			"settings":
 			{
-				"buffer_size": 46,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -62,7 +62,7 @@
 			"file": "lib/connectMiddleware.js",
 			"settings":
 			{
-				"buffer_size": 618,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -70,18 +70,18 @@
 			"file": "examples/connect/index.js",
 			"settings":
 			{
-				"buffer_size": 196,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<html>\n</html>",
+			"contents": "",
 			"file": "examples/connect/public/js/index.html",
 			"file_size": 14,
 			"file_write_time": 1329468861000000,
 			"settings":
 			{
-				"buffer_size": 14,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -120,7 +120,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 3061,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -136,7 +136,7 @@
 			"file": "bin/cli",
 			"settings":
 			{
-				"buffer_size": 941,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -168,7 +168,7 @@
 			"file": "makefile",
 			"settings":
 			{
-				"buffer_size": 207,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -176,7 +176,7 @@
 			"file": "lib/wrap.js",
 			"settings":
 			{
-				"buffer_size": 2288,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -184,7 +184,7 @@
 			"file": "lib/wrap.tpl.js",
 			"settings":
 			{
-				"buffer_size": 566,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -200,7 +200,7 @@
 			"file": "lib/beanpollPlugin.js",
 			"settings":
 			{
-				"buffer_size": 243,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -208,7 +208,7 @@
 			"file": "lib/load.js",
 			"settings":
 			{
-				"buffer_size": 2031,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -216,7 +216,7 @@
 			"file": "lib/cache.js",
 			"settings":
 			{
-				"buffer_size": 1242,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -224,7 +224,7 @@
 			"file": "examples/connect/public/js/test.js",
 			"settings":
 			{
-				"buffer_size": 59,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -232,7 +232,7 @@
 			"file": "examples/test-1/script.js",
 			"settings":
 			{
-				"buffer_size": 526,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -240,7 +240,7 @@
 			"file": "examples/test-2/script.js",
 			"settings":
 			{
-				"buffer_size": 306,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -248,7 +248,7 @@
 			"file": "examples/test-3/script.js",
 			"settings":
 			{
-				"buffer_size": 329,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -256,12 +256,20 @@
 			"file": ".cupboard",
 			"settings":
 			{
-				"buffer_size": 101,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "/tmp/subl stdin MsIGIa.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin yakkbd.txt",
 			"settings":
 			{
 				"buffer_size": 0,
@@ -374,7 +382,7 @@
 	"groups":
 	[
 		{
-			"selected": 30,
+			"selected": 20,
 			"sheets":
 			[
 				{
@@ -408,7 +416,7 @@
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 481,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -462,15 +470,15 @@
 					"file": "lib/index.js",
 					"settings":
 					{
-						"buffer_size": 340,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								279,
-								279
+								0,
+								0
 							]
 						],
 						"settings":
@@ -488,7 +496,7 @@
 					"file": "lib/index.js",
 					"settings":
 					{
-						"buffer_size": 46,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -514,15 +522,15 @@
 					"file": "lib/connectMiddleware.js",
 					"settings":
 					{
-						"buffer_size": 618,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								540,
-								540
+								0,
+								0
 							]
 						],
 						"settings":
@@ -541,15 +549,15 @@
 					"file": "examples/connect/index.js",
 					"settings":
 					{
-						"buffer_size": 196,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								128,
-								128
+								0,
+								0
 							]
 						],
 						"settings":
@@ -567,15 +575,15 @@
 					"file": "examples/connect/public/js/index.html",
 					"settings":
 					{
-						"buffer_size": 14,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14,
-								14
+								0,
+								0
 							]
 						],
 						"settings":
@@ -698,15 +706,15 @@
 					"file": "README.md",
 					"settings":
 					{
-						"buffer_size": 3061,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								342,
-								342
+								0,
+								0
 							]
 						],
 						"settings":
@@ -750,15 +758,15 @@
 					"file": "bin/cli",
 					"settings":
 					{
-						"buffer_size": 941,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								444,
-								444
+								0,
+								0
 							]
 						],
 						"settings":
@@ -855,15 +863,15 @@
 					"file": "makefile",
 					"settings":
 					{
-						"buffer_size": 207,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								125,
-								125
+								0,
+								0
 							]
 						],
 						"settings":
@@ -881,15 +889,15 @@
 					"file": "lib/wrap.js",
 					"settings":
 					{
-						"buffer_size": 2288,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1170,
-								1170
+								0,
+								0
 							]
 						],
 						"settings":
@@ -898,7 +906,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 811.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -908,15 +916,15 @@
 					"file": "lib/wrap.tpl.js",
 					"settings":
 					{
-						"buffer_size": 566,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								553,
-								558
+								0,
+								0
 							]
 						],
 						"settings":
@@ -961,15 +969,15 @@
 					"file": "lib/beanpollPlugin.js",
 					"settings":
 					{
-						"buffer_size": 243,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								241,
-								241
+								0,
+								0
 							]
 						],
 						"settings":
@@ -988,15 +996,15 @@
 					"file": "lib/load.js",
 					"settings":
 					{
-						"buffer_size": 2031,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1914,
-								1914
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1005,7 +1013,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 587.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1015,15 +1023,15 @@
 					"file": "lib/cache.js",
 					"settings":
 					{
-						"buffer_size": 1242,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								99,
-								99
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1042,15 +1050,15 @@
 					"file": "examples/connect/public/js/test.js",
 					"settings":
 					{
-						"buffer_size": 59,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								59,
-								59
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1068,15 +1076,15 @@
 					"file": "examples/test-1/script.js",
 					"settings":
 					{
-						"buffer_size": 526,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								115,
-								115
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1095,15 +1103,15 @@
 					"file": "examples/test-2/script.js",
 					"settings":
 					{
-						"buffer_size": 306,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								148,
-								148
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1121,15 +1129,15 @@
 					"file": "examples/test-3/script.js",
 					"settings":
 					{
-						"buffer_size": 329,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								60,
-								67
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1147,15 +1155,15 @@
 					"file": ".cupboard",
 					"settings":
 					{
-						"buffer_size": 101,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								98,
-								98
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1171,6 +1179,32 @@
 				{
 					"buffer": 30,
 					"file": "/tmp/subl stdin MsIGIa.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "/tmp/subl stdin yakkbd.txt",
 					"settings":
 					{
 						"buffer_size": 0,
