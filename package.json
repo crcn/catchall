@@ -2,7 +2,7 @@
     "name": "catchall",
     "description": "Catch all javascript exceptions",
     "repository": {},
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {},
     "dependencies": {
         "uglify-js": "1.2.x",
